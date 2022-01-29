@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.heading-1 {
+  font-family: "Ibarra Real Nova", serif;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 4.2rem;
+  letter-spacing: -0.45px;
+}
+
+.heading-2 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 4.2rem;
+  letter-spacing: -0.36px;
+}
+
+.heading-3 {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 3.6rem;
+  letter-spacing: -0.29px;
+}
+
+.body-text-1 {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
+.body-text-2 {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+/*# sourceMappingURL=main.css.map */

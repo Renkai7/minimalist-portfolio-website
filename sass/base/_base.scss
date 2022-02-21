@@ -5,45 +5,45 @@
 	padding: 0;
 	box-sizing: inherit;
 }
-
+// * {
+// 	outline: 1px solid #f00 !important;
+// }
+// html,
+// body {
+// 	overflow-x: hidden;
+// }
 html {
+	box-sizing: border-box;
 	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
 
-.heading-1 {
-	font-family: $font-header;
-	font-weight: 700;
-	font-size: 5rem;
-	line-height: 4.2rem;
-	letter-spacing: -0.45px;
-}
-
-.heading-2 {
-	font-family: $font-header;
-	font-size: 4.2rem;
-	font-weight: 700;
-	line-height: 4.2rem;
-	letter-spacing: -0.36px;
-}
-
-.heading-3 {
-	font-family: $font-header;
-	font-size: 3.2rem;
-	font-weight: 400;
-	line-height: 3.6rem;
-	letter-spacing: -0.29px;
-}
-
-.body-text-1 {
+body {
 	font-family: $font-body;
-	font-weight: 400;
-	font-size: 1.6rem;
-	line-height: 3rem;
+	overflow-x: hidden;
 }
 
-.body-text-2 {
-	font-family: $font-body;
-	font-weight: 400;
-	font-size: 1.5rem;
-	line-height: 3rem;
+.main {
+	margin: 2rem 3rem;
+
+	@media only screen and (min-width: $bp-medium) {
+		max-width: 68.8rem;
+		margin: 2rem auto;
+	}
+	@media only screen and (min-width: $bp-large) {
+		max-width: 110rem;
+	}
+	@media only screen and (min-width: $bp-largest) {
+		margin: 2rem auto;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
+}
+
+ul {
+	list-style: none;
 }

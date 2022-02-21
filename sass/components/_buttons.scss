@@ -1,0 +1,61 @@
+.btn-primary {
+	display: flex;
+	border: none;
+	background-color: $color-dark-blue;
+	cursor: pointer;
+	height: 4.8rem;
+	width: 20rem;
+	transition: all 0.2s;
+
+	&:hover {
+		background-color: $color-cyan;
+	}
+
+	&__icon-box {
+		width: 4.8rem;
+		background-color: rgba(0, 0, 0, 0.3);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&:hover &__icon-box svg {
+		filter: brightness(1.5) saturate(0);
+	}
+
+	&__text {
+		margin: auto;
+		color: #fff;
+		font-size: 1.2rem;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+}
+
+.btn-secondary {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 4.8rem;
+	width: 20rem;
+	border: 1px solid $color-gray-dark-blue;
+	background-color: #fff;
+	cursor: pointer;
+	transition: all 0.2s;
+
+	&:hover {
+		background-color: $color-gray-dark-blue;
+	}
+
+	&__text {
+		margin: auto 2rem;
+		color: $color-gray-dark-blue;
+		font-size: 1.2rem;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+
+	&:hover &__text {
+		color: #fff;
+	}
+}

@@ -1,0 +1,21 @@
+.header {
+	align-items: center;
+	position: relative;
+
+	display: flex;
+	justify-content: space-between;
+	margin: 4rem 3rem;
+
+	// min-width: 31.1rem;
+
+	@media only screen and (min-width: $bp-medium) {
+		max-width: 68.8rem;
+		margin: 4rem auto;
+	}
+	@media only screen and (min-width: $bp-large) {
+		max-width: 110rem;
+	}
+	// @media only screen and (min-width: $bp-largest) {
+	// 	margin: 4rem auto;
+	// }
+}

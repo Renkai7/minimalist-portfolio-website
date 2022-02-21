@@ -1,0 +1,121 @@
+.project {
+	margin-top: 4rem;
+
+	@media only screen and (min-width: $bp-medium) {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	@media only screen and (min-width: $bp-large) {
+		margin: 10rem auto;
+	}
+
+	&__img {
+		&--manage {
+			height: 28.8rem;
+			background-image: url("../images/portfolio/mobile/image-portfolio-manage.jpg");
+			background-repeat: no-repeat;
+			@media only screen and (min-width: $bp-medium) {
+				width: 33.9rem;
+				height: 31.4rem;
+				background-image: url("../images/portfolio/tablet/image-portfolio-manage.jpg");
+			}
+
+			@media only screen and (min-width: $bp-large) {
+				width: 54rem;
+				height: 50rem;
+				background-image: url("../images/portfolio/desktop/image-portfolio-manage.jpg");
+			}
+		}
+		&--bookmark {
+			height: 28.8rem;
+			background-image: url("../images/portfolio/mobile/image-portfolio-bookmark.jpg");
+			background-repeat: no-repeat;
+
+			@media only screen and (min-width: $bp-medium) {
+				width: 33.9rem;
+				height: 31.4rem;
+				background-image: url("../images/portfolio/tablet/image-portfolio-bookmark.jpg");
+			}
+
+			@media only screen and (min-width: $bp-large) {
+				width: 54rem;
+				height: 50rem;
+				background-image: url("../images/portfolio/desktop/image-portfolio-bookmark.jpg");
+			}
+		}
+		&--insure {
+			height: 28.8rem;
+			background-image: url("../images/portfolio/mobile/image-portfolio-insure.jpg");
+			background-repeat: no-repeat;
+
+			@media only screen and (min-width: $bp-medium) {
+				width: 33.9rem;
+				height: 31.4rem;
+				background-image: url("../images/portfolio/tablet/image-portfolio-insure.jpg");
+			}
+
+			@media only screen and (min-width: $bp-large) {
+				width: 54rem;
+				height: 50rem;
+				background-image: url("../images/portfolio/desktop/image-portfolio-insure.jpg");
+			}
+		}
+		&--fylo {
+			height: 28.8rem;
+			background-image: url("../images/portfolio/mobile/image-portfolio-fylo.jpg");
+			background-repeat: no-repeat;
+
+			@media only screen and (min-width: $bp-medium) {
+				width: 33.9rem;
+				height: 31.4rem;
+				background-image: url("../images/portfolio/tablet/image-portfolio-fylo.jpg");
+			}
+
+			@media only screen and (min-width: $bp-large) {
+				width: 54rem;
+				height: 50rem;
+				background-image: url("../images/portfolio/desktop/image-portfolio-fylo.jpg");
+			}
+		}
+	}
+
+	&__heading {
+		margin-bottom: 2rem;
+	}
+
+	&__text {
+		margin-bottom: 3rem;
+		padding-right: 3rem;
+	}
+
+	&__details {
+		margin-top: 4rem;
+		margin-bottom: 8rem;
+		padding: 2.5rem 0 2rem;
+		border-top: 1px solid #979797;
+		border-bottom: 1px solid #979797;
+		@media only screen and (min-width: $bp-medium) {
+			width: 28.1rem;
+			margin: 2rem 0;
+		}
+
+		@media only screen and (min-width: $bp-large) {
+			width: 35rem;
+			height: 50rem;
+			margin: 0 auto;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
+}
+
+.project-container {
+	@media only screen and (min-width: $bp-medium) {
+		section:nth-child(even) {
+			flex-direction: row-reverse;
+		}
+	}
+}

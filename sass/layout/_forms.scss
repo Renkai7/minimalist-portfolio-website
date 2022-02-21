@@ -1,0 +1,79 @@
+.get-in-touch {
+	&__section {
+		border-top: 1px solid rgba($color: #979797, $alpha: 0.15);
+		border-bottom: 1px solid rgba($color: #979797, $alpha: 0.15);
+		padding: 2.5rem 0 4.5rem;
+
+		margin-bottom: 5rem;
+		@media only screen and (min-width: $bp-medium) {
+			margin-top: 9rem;
+		}
+		@media only screen and (min-width: $bp-large) {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	&__text {
+		margin-top: 2rem;
+		margin-bottom: 3rem;
+	}
+}
+
+.contact-section {
+	margin-bottom: 8rem;
+	@media only screen and (min-width: $bp-large) {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+.contact-form {
+	max-width: 68.9rem;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		&:not(:last-child) {
+			margin-bottom: 3.5rem;
+		}
+	}
+	label {
+		font-size: 1.3rem;
+		margin-bottom: 1.5rem;
+	}
+	input,
+	textarea {
+		border: 1px solid transparent;
+		background-color: rgba($color: $color-gray-dark-blue, $alpha: 0.1);
+		padding: 2rem;
+		outline: none;
+		&:focus {
+			border: 1px solid $color-cyan;
+		}
+		&.error {
+			border-color: $color-red;
+		}
+	}
+	textarea {
+		resize: none;
+	}
+	input::placeholder,
+	textarea::placeholder {
+		font-family: $font-body;
+		font-size: 1.3rem;
+		font-weight: 400;
+		color: rgba($color: $color-gray-dark-blue, $alpha: 0.4);
+		mix-blend-mode: normal;
+	}
+}
+
+.error-message {
+	color: #cc0033;
+	font-size: 12px;
+	line-height: 15px;
+	margin: 5px 0 0;
+
+	&__hidden {
+		display: none;
+	}
+}

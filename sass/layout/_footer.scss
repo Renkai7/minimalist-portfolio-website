@@ -1,0 +1,50 @@
+.footer {
+	background-color: $color-gray-dark-blue;
+	text-align: center;
+	padding: 4rem 0;
+	margin-top: 9rem;
+
+	@media only screen and (min-width: $bp-medium) {
+		display: flex;
+		align-items: center;
+		padding: 2.5rem 10rem;
+	}
+	path {
+		fill: #fff;
+	}
+
+	&__nav {
+		margin: 3rem 0;
+		@media only screen and (min-width: $bp-medium) {
+			display: flex;
+			margin: 0;
+		}
+	}
+
+	&__nav-item {
+		list-style: none;
+		margin-bottom: 2rem;
+		align-items: center;
+
+		@media only screen and (min-width: $bp-medium) {
+			margin: 0;
+			margin-left: 5rem;
+		}
+	}
+
+	&__nav-links {
+		color: #fff;
+		font-size: 1.2rem;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+}
+
+.social-links {
+	@media only screen and (min-width: $bp-medium) {
+		margin-left: auto;
+	}
+	a {
+		margin-right: 1.5rem;
+	}
+}

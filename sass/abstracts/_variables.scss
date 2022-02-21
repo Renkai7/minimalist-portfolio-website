@@ -10,4 +10,8 @@ $color-red: #f43030;
 $font-header: "Ibarra Real Nova", serif;
 $font-body: "Public Sans", sans-serif;
 
-// Breakpoints
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5em; // 1000px
+$bp-medium: 48em; // 800px
+$bp-small: 37.5em; // 600px

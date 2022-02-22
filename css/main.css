@@ -311,6 +311,7 @@ ul {
 }
 .btn-primary__icon-box {
   width: 4.8rem;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   align-items: center;
